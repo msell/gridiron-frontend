@@ -23,7 +23,7 @@
                     title: 'rankings',
                     settings: {
                         nav: 2,
-                        content: '<i class="fa fa-dashboard"></i> Rankings'
+                        content: '<i class="fa fa-sort-numeric-asc"></i> Rankings'
                     }
                 }
             }
