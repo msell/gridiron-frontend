@@ -35,10 +35,10 @@ angular.module('gridironFrontend').config(function ($urlRouterProvider, $statePr
         controller: 'VehiclesCtrl'
     })   
     
-    .state('weighIns', {
-        url: '/weighIns',
-        templateUrl: '/views/weighin.html',
-        controller: 'WeighinCtrl'
+    .state('draftboard', {
+        url: '/draftboard',
+        templateUrl: '/views/draftboard.html',
+        controller: 'DraftboardCtrl'
     })   
 
     .state('logout', {
