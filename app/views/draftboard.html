@@ -1,2 +1,12 @@
 
-<div>Put shit here</div>
+<div>
+  <ul>
+    <li ng-repeat="player in players track by player.id">
+      <span>{{player.id}}</span>
+      <span>{{player.name}}</span>
+      <span>{{player.position}}</span>
+      <span>{{player.byeWeek}}</span>
+      <span>{{player.nflDraftRank}}</span>
+    </li>
+  </ul>
+</div>
